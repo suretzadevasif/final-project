@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Herr+Von+Muellerhoff&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+
+
+
+#header {
+    height: 20vh;
+    height: 20vh;
+    color: #fff;
+    background-size: cover;
+
+}
+
+.heading {
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+    border-bottom: .1rem solid #edf177;
+    font-size: 3rem;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.heading span {
+    color: orange;
+    text-transform: uppercase;
+}
+
+.category .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.category .box-container .box {
+    height: 30rem;
+    flex: 1 1 40rem;
+    border-radius: .5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.category .box-container .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.category .box-container .box:hover img {
+    transform: scale(1.1);
+}
+
+
+.category .box-container .content {
+    position: absolute;
+    bottom: 7rem;
+    left: 2rem
+}
+
+.category .box-container .content span {
+    font-size: 3rem;
+    color: orange;
+}
+
+.category .box-container .content h3 {
+    font-size: 3rem;
+    color: #15ac7f9e;
+    text-transform: uppercase;
+    padding-top: 5rem;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background-color: #32331b;
+    color: white;
+    font-size: 1.8rem;
+    padding: 9rem 3, 5rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: orange;
+    color: #fff;
+}
+
+
+.category .box-container .box .imgg {
+    height: 35rem;
+
+
+}
+
+.headerrr {
+    background-color: #f5e1f6;
+}
+
+
+
+/*****sproduct*/
+#prodetails {
+    display: flex;
+    margin-top: 20px;
+}
+
+#prodetails .single-pro-image {
+    width: 40%;
+
+    margin-right: 50px;
+
+}
+
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+
+}
+
+#prodetails .single-pro-details {
+    width: 50%;
+    padding-top: 30px;
+
+}
+
+#prodetails .single-pro-details h3 {
+    padding: 20px 0 20px 0;
+}
+
+#prodetails .single-pro-details h2 {
+    font-size: 26;
+
+
+}
+
+#prodetails .single-pro-details select {
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+
+}
+
+#prodetails .single-pro-details input {
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#prodetails .single-pro-details button {
+    background: #088178;
+    color: #fff;
+}
+
+
+#prodetails .single-pro-details input:focus {
+    outline: none;
+}
+
+
+#prodetails .single-pro-details span {
+    line-height: 25px;
+}
+/* Blog Page*/
+
+
+#page-header {
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+    background-image: url("/Pictures/banner/b19.jpg");
+}
+
+#page-header h2,
+#page-header p{
+    color:#fff;
+}
+
+#blog{
+    padding: 150px 150px 0 150px;
+}
+#blog .blog-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    padding-bottom: 90px;
+}
+
+#blog .blog-img{
+    width: 50%;
+    margin-right: 40px;
+}
+
+#blog img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+#blog .blog-details{
+    width: 50%;
+}
+#blog .blog-details a{
+    text-decoration: none;
+    font-size: 11px;
+    color: #000;
+    font-weight: 700;
+    position: relative;
+    transition: 0.3;
+}
+
+#blog .blog-details a::after{
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top:4px;
+    right: -60px;
+    
+}
+
+#blog .blog-details a:hover{
+    color: #088178;
+}
+#blog .blog-details a:hover::after{
+    background-color: #088178;
+}
+
+#blog .blog-box h1{
+    position: absolute;
+    top: -40px;
+    left: 0;
+    font-size: 70px;
+    font-weight: 700;
+    color: #c9cbce;
+    z-index: -9;
+
+}
+
+
+/*----------------------------------------------------*/
+
+/*Contact page*/
+#contact-header {
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 24px;
+    background-image: url("/Pictures/banner/contact.jpg");
+}
+
+#contact-header h2,
+#contact-header p{
+    color:#fff;
+}
+
+#contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#contact-details .details{
+    width: 40%;
+}
+#contact-details .details h2,
+#form-details form h2{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+
+#contact-details .details span
+{
+    font-size:12px;
+}
+
+#contact-details .details h3{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+#contact-details .details li{
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+
+#contact-details .details li i{
+ font-size: 14px;
+ padding-right: 22px;
+}
+
+
+#contact-details .details li p{
+   margin: 0;
+   font-size: 14px;
+}
+
+#contact-details .map{
+    width: 55%;
+    height: 400px;
+}
+
+#contact-details .map iframe{
+    height: 100%;
+    width: 100%;
+}
+
+#form-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 80px;border: 1px solid #e1e1e1;
+}
+
+#form-details form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#form-details form input,
+#form-details form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+}
+
+#form-details form button{
+    color: #fff;
+    background-color: #088178;
+} 
+
+
+
+#form-details .people div{
+    padding-bottom: 25px;
+    display: flex;
+    align-items: flex-start;
+}
+#form-details .people div img{
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+#form-details .people div p span{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
